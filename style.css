@@ -5,13 +5,15 @@
 }
 
 body {
+  min-width: 1420px;
+
   font-family: "Nunito Sans", sans-serif;
-  font-family: "Open Sans", sans-serif;
 }
 
 .main {
   background: linear-gradient(180deg, #0c4c7b -100%, #1e2f40 100%);
 }
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -102,8 +104,6 @@ h1 span {
 }
 
 .burger {
-  /* transition: 1s all 1s ease; */
-
   position: absolute;
   width: 829px;
   right: -168px;
