@@ -165,7 +165,7 @@ h1 span {
     line-height: 90px;
   }
 
-  .promo-left:not([disabled]):hover {
+  .promo-left:not(:hover) {
     scale: 1;
   }
 
