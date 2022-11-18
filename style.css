@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  min-width: 1420px;
+  /* min-width: 1530px; */
+  min-width: 100%;
+  /* overflow-x: hidden; */
 
   font-family: "Nunito Sans", sans-serif;
 }
